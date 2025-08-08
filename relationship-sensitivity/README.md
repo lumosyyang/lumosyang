@@ -1,19 +1,3 @@
-# Repo Layout
-relationship-sensitivity/
-├─ src/rel_sense/
-│  ├─ __init__.py
-│  ├─ scoring.py          # CLI: totals + radars + Excel breakdown
-│  ├─ radar.py            # radar chart helper
-│  └─ sensitivity.py      # 1D/3D weight sweeps
-│  └─ run_sensitivity.py      # Driver and CLI
-├─ examples/
-│  └─ relationship.csv
-├─ app.py                 # Streamlit demo (optional)
-├─ requirements.txt
-├─ README.md
-├─ LICENSE
-├─ .gitignore
-└─ .github/workflows/ci.yml
 
 # 💞 Relationship Sensitivity
 
