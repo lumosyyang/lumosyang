@@ -36,20 +36,21 @@ Columns (case-sensitive):
 - CurScore or Cur_score_raw – score for Option B (e.g., “Current”)
 
 Example (examples/relationship.csv):
-```
-Dimension,Description,Weight,Ex_score_raw,Cur_score_raw
-Emotional connection,Years of shared history,0.18,10,7
-Unconditional acceptance,Accept flaws and vulnerability,0.14,9,8
-Care & daily attentiveness,Daily care and thoughtfulness,0.11,8,9
-Shared values & life goals,Life goals alignment,0.14,6,9
-Income & economic potential,Financial potential,0.11,6,9
-Activity & interest fit,Shared hobbies,0.08,6,9
-Physical preference,Height/Looks,0.04,9,7
-Communication & conflict,Conflict resolution,0.07,8,9
-Patience & holding space,Willingness to wait,0.04,7,9
-Social handling,Handling public pressure,0.02,7,8
-Aesthetics & taste,Love for beauty,0.10,6,9
-```
+
+| Dimension                      | Weight | ExScore | CurScore |
+|---------------------------------|--------|---------|----------|
+| Emotional connection           | 0.12   | 9       | 7        |
+| Unconditional acceptance       | 0.10   | 8       | 6        |
+| Care & daily attentiveness     | 0.13   | 7       | 8        |
+| Shared values & life goals     | 0.15   | 6       | 8        |
+| Income & economic potential    | 0.14   | 7       | 7        |
+| Activity & interest fit        | 0.09   | 6       | 8        |
+| Physical preference            | 0.06   | 8       | 6        |
+| Communication & conflict       | 0.08   | 7       | 9        |
+| Patience & holding space       | 0.05   | 6       | 8        |
+| Social handling                | 0.04   | 5       | 7        |
+| Aesthetics & taste             | 0.04   | 7       | 8        |
+
 # Use app.py
 ```
 python3 -m streamlit run app.py
