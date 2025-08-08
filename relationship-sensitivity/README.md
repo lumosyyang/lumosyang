@@ -56,7 +56,7 @@ Example (examples/relationship.csv):
 python3 -m streamlit run app.py
 ``` 
 
-# If You Chose to Run Everything in Your Ternimal
+# If You Somehow Chose to Run Everything on Your Local Ternimal
 
 ## 3) Run Scoring and Plot Radar Chart
 Calculate and export scores for current and ex-partners.
@@ -117,5 +117,13 @@ Lastly, find Results in Output Folder
     We auto-normalize and print a warning.
 
 
-### License
+###  LICENSE
 MIT - do what you want, no warranty.
+
+## 🪞 Behind the Scenes
+
+This project started from a personal reflection on relationships — wondering why certain connections feel stronger than others, and how much those feelings shift when specific qualities change.
+
+What began as a casual conversation about emotional patterns unexpectedly turned into a full development journey: building scoring logic, sensitivity analysis, and a visual interface with Streamlit.
+
+It’s both a tool for playful exploration and a mirror for deeper self-understanding — a reminder that sometimes, coding can be another way of making sense of the heart.
